@@ -15,7 +15,7 @@ A simple and interactive **Sales KPI Dashboard** built with **Python** and **Str
   - Sales Over Time (line chart)  
   - Sales by Region (bar chart)  
 - Data preview for quick validation of uploaded files  
-- Error handling for missing or incorrect columns in data
+- Error handling for missing or incorrect columns in data  
 
 ---
 
@@ -24,36 +24,31 @@ A simple and interactive **Sales KPI Dashboard** built with **Python** and **Str
 ### Prerequisites
 
 - Python 3.7+  
-- Pip package manager
+- Pip package manager  
 
 ### Installation
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/sales-kpi-dashboard.git
-   cd sales-kpi-dashboard
-Install required Python packages manually:
+   git clone https://github.com/yourusername/sales-kpi-dashboard.git  
+   cd sales-kpi-dashboard  
 
-bash
-Copy
-Edit
+2. Install required Python packages manually:
+
+```bash
 pip install streamlit pandas plotly
-Running the Dashboard
-Run the Streamlit app with:
+```
+3. Run the Streamlit app with:
 
-bash
-Copy
-Edit
+```bash
 streamlit run app.py
-This will open the dashboard in your default web browser.
-
-Using the Dashboard
+```
+## Using the Dashboard
 Upload a CSV file containing your sales data with at least the following columns:
 Date (YYYY-MM-DD format), Sales Amount, Units Sold, Region
 
-View KPIs and interactive charts generated from your data.
-
-Sample Data
+## Sample Data
 You can test the dashboard with the provided mock sales data file mock_sales_data.csv (or create your own).
 
-
+## License
+This project is open source and available under the MIT License.
